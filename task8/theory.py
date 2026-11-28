@@ -1,4 +1,10 @@
 from itertools import *
+
+alph = sorted('abc')
+
+alph = sorted('abs',reverse=True)
+alph = sorted(alph)[::-1]
+
 for val in product ('фокус',repeat = 5):
     val = ''.join(val)
 
